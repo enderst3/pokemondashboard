@@ -122,7 +122,7 @@ handleModalClose() {
           openModal={this.handleModalOpen}
         />
 
-        <PokemonModal  closeModal={this.handleModalClose} showModal={this.state.showModal} pokemon={this.state.pokemon}/>
+        <PokemonModal closeModal={this.handleModalClose} showModal={this.state.showModal} pokemon={this.state.selectedPokemon}/>
 
       </div>
     );
